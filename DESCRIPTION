@@ -1,0 +1,12 @@
+Package: woo
+Version: 0.1
+Title: Kara Woo's miscellaneous functions
+Description: Various helpful (to me) functions.
+Author: Kara Woo <woo.kara@gmail.com>
+Maintainer: Kara Woo <woo.kara@gmail.com>
+Depends:
+    R (>= 3.0.2)
+Imports:
+    lubridate
+License: MIT + file LICENSE
+Roxygen: list(wrap = FALSE)
