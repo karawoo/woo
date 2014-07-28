@@ -1,7 +1,7 @@
 # read_all_files
 #' Read all files
 #'
-#' Read all files with a given file extension into a list. List elements are given names that correspond to the file name
+#' Read all files with a given file extension into a list. List elements are given names that correspond to the file name.
 #' 
 #' @param dir directory where files are located. Defaults to the working directory.
 #' @param ext file extension to be used. Defaults to '\\.(csv|CSV)$'.
