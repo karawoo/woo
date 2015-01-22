@@ -13,10 +13,11 @@
 ##' @export
 
 title_case <- function(x){
-  capword <- function(x) paste0(toupper(substring(x, 1, 1)),
-                                tolower(substring(x, 2, nchar(x))))
+  capword <- function(x) {
+   paste0(toupper(substring(x, 1, 1)), tolower(substring(x, 2, nchar(x))))
+  }
   ifelse(is.na(x), NA,
          sapply(strsplit(x, "\\s"), function(x) {
-           paste(capword(x), collapse = " "))
-         })
+           paste(capword(x), collapse = " ")
+         }))
 }
