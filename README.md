@@ -9,7 +9,7 @@ Here are (/will be) various functions that I find helpful.
 
 ```R
 library('devtools')
-devtools::install_github('woo', 'karawoo')
+devtools::install_github('karawoo/woo')
 ```
 
 Please note that this project is released with a
